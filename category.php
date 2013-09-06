@@ -42,7 +42,7 @@
 			<?php endwhile; ?>
 			
 		<?php endif; ?>
-
+<?php wp_pagenavi(); ?>
 </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

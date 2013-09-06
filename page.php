@@ -14,7 +14,7 @@
 						</div> 
 						
 						<div class="commentNum right">
-							<a href="#"><span><?php comments_popup_link(__('yorum yok'), __('1 yorum'), __('% yorum'), '', __('Yorumlara kapalı'));?></span></a>
+							<span><?php comments_popup_link(__('yorum yok'), __('1 yorum'), __('% yorum'), '', __('Yorumlara kapalı'));?></span>
 						</div>
 					</div>
 					
