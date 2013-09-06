@@ -65,7 +65,25 @@ ul.menu li a:hover {
 	color: rgb(66,59,53);
 }
 
-div.container { width: 940px !important; margin-bottom: 10px; margin-bottom: 20px; }
+.slider {
+	background: rgb(227,225,213);
+	padding: 5px;
+	width: 910px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.cycloneslider-template-default .cycloneslider-slides {
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+}
+
+div.container { width: 930px !important; margin-bottom: 10px; margin-bottom: 20px; }
 
 div.contentWrap { width: 615px; padding: 5px; }
 
@@ -112,7 +130,9 @@ div.postdata { padding: 0px 10px 10px; font-family: tahoma; font-size: 13px; }
 
 div.textWidget,div.tagcloud { padding:  0px 10px; margin-bottom: 10px; font-family: myriad pro; font-size: 14px; }
 
-a.post-meta-link,a.post-edit-link,span.lightData { color: rgb(102,102,102); text-decoration: underline; }
+div.postdata a { color: rgb(102,102,102); text-decoration: underline; }
+
+span.lightData { color: rgb(102,102,102); }
 
 /* sidebar */
 
@@ -121,13 +141,13 @@ div.sidebar { width: 280px; }
 div.widget {
 	background: rgb(29,26,23);
 	padding: 10px 10px 20px;
-	width: 275px;
+	width: 280px;
 	height: 240px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
-	margin-right: 10px;
+	margin-right: 5px;
 	margin-bottom: 10px;
 }
 
@@ -192,7 +212,7 @@ img.alignnone {
 	margin: 5px 0;
 }
 
-
+h1.notFound { font-family: myriad pro; font-size: 18px; font-weight: bold; color: rgb(102,102,102); }
 
 
 

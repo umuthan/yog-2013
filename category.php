@@ -30,12 +30,12 @@
 						<?php the_excerpt(''); ?>
 						
 						<?php else : ?>
-							<?php the_content( __( 'Devamý..' ) ); ?>
+							<?php the_content( __( '<button class="btn btn-inverse right marginBot">Devamý..</button>' ) ); ?>
 						<?php endif; ?>
 						
 					</div>
 					<div class="postdata">
-						<?php yog_posted_on(); ?> <?php the_tags( ' | Etiketler : ', ', ', ''); ?> <span class='badge badge-important'><?php edit_post_link(); ?></span>
+						<?php yog_posted_on(); ?> <?php the_tags( ' | Etiketler : ', ', ', ''); ?> <span><?php edit_post_link(); ?></span>
 					</div>
 				</div>
 

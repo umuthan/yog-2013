@@ -96,25 +96,13 @@ function yog_widgets_init() {
             'name'          => __('Page Sidebar', 'yog'),
             'id'            => 'sidebar-page',
 			'description'   => __('Sayfa ici bilesen ekleyiniz', 'yog'),
-            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'before_widget' => '<div id="%1$s" class="page-widget %2$s">',
             'after_widget'  => "</div>",
             'before_title'  => '<h4 class="widget-title">',
             'after_title'   => '</h4>',
         )
     );
-
-    register_sidebar(
-        array(
-            'name'          => __('Posts Sidebar', 'yog'),
-            'id'            => 'sidebar-posts',
-			'description'   => __('Post ici bilesen ekleyiniz', 'yog'),
-            'before_widget' => '<div id="%1$s" class="widget %2$s">',
-            'after_widget'  => "</div>",
-            'before_title'  => '<h4 class="widget-title">',
-            'after_title'   => '</h4>',
-        )
-    );
-
+	
     register_sidebar(
         array(
             'name'          => __('Footer Content', 'yog'),
