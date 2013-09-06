@@ -14,7 +14,7 @@
 						</div> 
 						
 						<div class="commentNum right">
-							<a href="#"><span><?php comments_popup_link(__('yorum yok'), __('1 yorum'), __('% yorum'), '', __('Yorumlara kapalý'));?></span></a>
+							<a href="#"><span><?php comments_popup_link(__('yorum yok'), __('1 yorum'), __('% yorum'), '', __('Yorumlara kapalÄ±'));?></span></a>
 						</div>
 					</div>
 					
@@ -28,7 +28,7 @@
 						<?php the_excerpt(''); ?>
 						
 						<?php else : ?>
-							<?php the_content( __( 'Devamý..' ) ); ?>
+							<?php the_content( __( 'DevamÄ±..' ) ); ?>
 						<?php endif; ?>
 						
 					</div>

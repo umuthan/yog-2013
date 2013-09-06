@@ -16,7 +16,7 @@
 						</div> 
 						
 						<div class="commentNum right">
-							<a href="#"><span><?php comments_popup_link(__('yorum yok'), __('1 yorum'), __('% yorum'), '', __('Yorumlara kapalý'));?></span></a>
+							<a href="#"><span><?php comments_popup_link(__('yorum yok'), __('1 yorum'), __('% yorum'), '', __('Yorumlara kapalÄ±'));?></span></a>
 						</div>
 					</div>
 					
@@ -30,7 +30,7 @@
 						<?php the_excerpt(''); ?>
 						
 						<?php else : ?>
-							<?php the_content( __( '<button class="btn btn-inverse right marginBot">Devamý..</button>' ) ); ?>
+							<?php the_content( __( '<button class="btn btn-inverse right marginBot">DevamÄ±..</button>' ) ); ?>
 						<?php endif; ?>
 						
 					</div>
