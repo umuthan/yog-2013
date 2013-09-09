@@ -21,7 +21,7 @@
 		<div class="stabilSize overflowHid">
 			<div class="right socialIco">
 				<a href="http://facebook.com/yazilimozgurlugugunu"><img src="<?php bloginfo('template_url'); ?>/themeImage/face.png" alt="" /></a>
-				<a href="https://groups.google.com/forum/#!forum/yazilimozgurlugu"><img src="<?php bloginfo('template_url'); ?>/themeImage/twit.png" alt="" /></a>
+				<a href="https://twitter.com/yazilimozgurgun"><img src="<?php bloginfo('template_url'); ?>/themeImage/twit.png" alt="" /></a>
 				<a href="https://groups.google.com/forum/#!forum/yazilimozgurlugu"><img src="<?php bloginfo('template_url'); ?>/themeImage/gplus.png" alt="" /></a>
 			</div>
 		</div>
